@@ -13,7 +13,7 @@ public class Conn {
 		try {
 			String db = "jdbc:mysql://localhost:3306/board_data";
 			String id = "root";
-			String pw = "kjg528311!";
+			String pw = "password";
 			Class.forName("com.mysql.jdbc.Driver");
 			conn = DriverManager.getConnection(db, id, pw);
 		} catch (Exception e) {
